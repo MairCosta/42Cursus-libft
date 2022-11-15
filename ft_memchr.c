@@ -1,27 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/05 16:45:01 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/11/15 15:14:30 by ricosta-         ###   ########.fr       */
+/*   Created: 2022/11/15 15:15:12 by ricosta-          #+#    #+#             */
+/*   Updated: 2022/11/15 15:59:56 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strrchr(const char *str, int c)
+void	*ft_memchr(const void *s, int c, size_t n)
 {
-	int	len;
+	size_t 	i;
 
-	len = ft_strlen(str);
-	while (len >= 0)
-	{
-		if (str[len] == (char)c)
-			return ((char *)str + len);
-		len--;
-	}
-	return (0);
+	i = 0;
+	while ()
 }
