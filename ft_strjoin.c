@@ -1,27 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/05 16:45:01 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/12/18 18:47:05 by ricosta-         ###   ########.fr       */
+/*   Created: 2022/12/19 15:59:13 by ricosta-          #+#    #+#             */
+/*   Updated: 2022/12/19 17:14:46 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strrchr(const char *str, int c)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	int	len;
+	char	*s3;
+	size_t	i;
+	size_t	j;
 
-	len = ft_strlen(str);
-	while (len >= 0)
+	i = 0;
+	j = 0;
+	s3 = malloc(ft_strlen(s1) + ft_strlen(s2) + 1);
+	if (!s3)
+		return (NULL);
+	while (s1[i])
 	{
-		if (str[len] == (char)c)
-			return ((char *)str + len);
-		len--;
+		s3[i] = s1[i];
+		i++;
 	}
-	return (0);
+	while (s2[j])
+		s3[i++] = s2[j++];
+	s3[i] = '\0';
+	return (s3);
 }
