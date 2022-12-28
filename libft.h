@@ -6,7 +6,7 @@
 /*   By: mair <mair@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 16:46:55 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/12/14 18:06:24 by mair             ###   ########.fr       */
+/*   Updated: 2022/12/24 12:47:42 by mair             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,6 +63,5 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_atoi(const char *str);
 
 int     ft_memcmp(const void *str1, const void *str2, size_t n)
-
 
 #endif
