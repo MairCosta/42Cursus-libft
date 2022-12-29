@@ -6,11 +6,11 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 18:10:31 by mair              #+#    #+#             */
-/*   Updated: 2022/12/28 15:43:40 by ricosta-         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:08:49 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h.>
+#include <stdio.h>
 #include <string.h>
 #include "libft.h"
 
@@ -22,19 +22,16 @@ char	*ft_strnstr(const char *big, const char *small, size_t len)
 	i = 0;
 	if (small[0] == '\0')
 		return ((char *)big);
-	while (big[i])
+	while (big[i] && len)
 	{
 		n = 0;
-		while (big[i + n] == small[n] && (i + n) < len)
-		{
-			if (big[i + n] && small[n])
-				return ((char *)&big[i]);
+		while (big[i + n] == small[n] && (i + n) < len && small[n])
 			n++;
-		}
-		if (small[n])
-			return ((char *)big + i);
+		if (!small[n])
+			return ((char *)&big[i]);
 		i++;
 	}
+	return (NULL);
 }
 
 /*DESCRIPTION:
