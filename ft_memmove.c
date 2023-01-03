@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 17:13:51 by ricosta-          #+#    #+#             */
-/*   Updated: 2023/01/02 18:38:29 by ricosta-         ###   ########.fr       */
+/*   Updated: 2022/11/05 18:47:08 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,3 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 		ft_memcpy(dst, src, n);
 	return (dst);
 }
-
-//verifica se dst e maior q src de modo a nao haver situacoes inesperadas

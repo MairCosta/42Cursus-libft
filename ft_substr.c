@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 14:43:47 by ricosta-          #+#    #+#             */
-/*   Updated: 2023/01/02 21:05:30 by ricosta-         ###   ########.fr       */
+/*   Updated: 2022/12/19 15:57:19 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[j] = '\0';
 	return (sub);
 }
-
-//extrai uma porcao da str e devolve como nova str

@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 15:07:36 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/11/03 18:21:43 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/01/02 17:48:19 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,4 @@ void	ft_bzero(void *s, size_t n)
 	}
 }
 
-/*void ft_bzero(void *s, size_t n)
-{
-	ft_memset(*s, '\0', n)
-}*/
+//sets n bytes to '\0'

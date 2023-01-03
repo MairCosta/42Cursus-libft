@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/18 18:01:44 by ricosta-          #+#    #+#             */
-/*   Updated: 2023/01/02 20:50:40 by ricosta-         ###   ########.fr       */
+/*   Updated: 2022/12/28 17:44:29 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,3 @@ char	*ft_strdup(const char *s)
 		ft_memcpy(ptr, s, len);
 	return (ptr);
 }
-
-//aloca e copia

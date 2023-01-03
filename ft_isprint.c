@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 17:52:28 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/11/03 18:21:01 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/01/02 17:43:01 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,5 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
+
+// 32 is space and 126 is tilde

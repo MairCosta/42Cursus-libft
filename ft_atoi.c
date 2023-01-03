@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 14:12:50 by ricosta-          #+#    #+#             */
-/*   Updated: 2023/01/02 20:44:26 by ricosta-         ###   ########.fr       */
+/*   Updated: 2022/12/28 14:16:11 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,4 +51,5 @@ int	ft_atoi(const char *str)
     }
 }*/
 
-/*ascii to int, first sign, then negative, then conversion*/
+/* The atoi() function converts the initial portion of the string pointed 
+to by str to int representation.*/
