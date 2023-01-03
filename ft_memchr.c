@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 15:15:12 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/12/19 17:04:20 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/01/02 20:41:40 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,5 @@ void	*ft_memchr(const void *str, int c, size_t n)
 	}
 	return (NULL);
 }
+
+//procura c em n bytes

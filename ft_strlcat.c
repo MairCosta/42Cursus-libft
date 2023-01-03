@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 15:55:10 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/11/05 17:36:11 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/01/02 19:20:41 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	i = 0;
 	if (size == 0 || size <= dst_size)
 		return (src_size + size);
-	while (src[i] != '\0' && (i < size - dst_size - 1))
+	while (src[i] && (i < size - dst_size - 1))
 	{
 		dst[dst_size + i] = src[i];
 		i++;
@@ -31,3 +31,5 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[dst_size + i] = '\0';
 	return (src_size + dst_size);
 }
+
+//concatenates knowing the whole size so it doesnt overflow

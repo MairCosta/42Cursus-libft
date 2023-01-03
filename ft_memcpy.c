@@ -6,11 +6,12 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 15:42:11 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/11/05 16:09:18 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/01/02 18:16:38 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
@@ -28,3 +29,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 }
 
 /*diferenca para o strcpy e que recebe qq data type*/
+
+int main()
+{
+	char str[] = "Start stop"
+}

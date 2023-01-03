@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 16:45:01 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/12/18 18:47:05 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/01/02 19:30:43 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,5 @@ char	*ft_strrchr(const char *str, int c)
 	}
 	return (0);
 }
+
+//r reverse

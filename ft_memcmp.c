@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 17:45:18 by mair              #+#    #+#             */
-/*   Updated: 2022/12/29 16:27:09 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/01/02 20:36:14 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,5 @@ int	ft_memcmp(const void *str1, const void *str2, size_t n)
 	}
 	return (0);
 }
+
+//compares n bytes of two memory locations

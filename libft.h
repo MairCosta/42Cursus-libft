@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 16:46:55 by ricosta-          #+#    #+#             */
-/*   Updated: 2022/12/29 20:23:49 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/01/02 19:09:36 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <unistd.h>
 # include <limits.h>
 # include <stdlib.h>
+# include <string.h>
 
 typedef struct s_list
 {
