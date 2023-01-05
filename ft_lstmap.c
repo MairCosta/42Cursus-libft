@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/03 21:14:48 by ricosta-          #+#    #+#             */
-/*   Updated: 2023/01/03 21:50:01 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/01/05 16:11:22 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_list;
 	t_list	*new_node;
-	
+
 	if (!lst)
 		return (0);
 	new_list = 0;
