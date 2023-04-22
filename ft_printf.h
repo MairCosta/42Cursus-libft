@@ -6,7 +6,7 @@
 /*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/06 17:30:38 by ricosta-          #+#    #+#             */
-/*   Updated: 2023/01/17 17:29:47 by ricosta-         ###   ########.fr       */
+/*   Updated: 2023/04/22 19:53:24 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@
 # include <stdarg.h>
 # include <stdlib.h>
 # include <limits.h>
+
+# include "libft.h"
 
 int		ft_printf(const char *str, ...);
 int		ft_print_arg(const char *str, int i, va_list args);

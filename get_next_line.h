@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mair <mair@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: ricosta- <ricosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/01 15:30:42 by ricosta-          #+#    #+#             */
-/*   Updated: 2023/02/06 20:07:45 by mair             ###   ########.fr       */
+/*   Updated: 2023/04/22 19:53:31 by ricosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 # include <sys/stat.h>
 # include <stdlib.h>
 # include <limits.h>
+
+# include "libft.h"
 
 //unistd & stdio for read, fcntl & sys/stat for open;
 
